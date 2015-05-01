@@ -1,8 +1,8 @@
 var Meal = Backbone.Model.extend({
   defaults: {
-              name    : '',
-              goodCal : 0,
-              badCal  : 0
+      name    : '',
+      goodCal : 0,
+      badCal  : 0
     }
 });
 
