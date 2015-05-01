@@ -1,1 +1,27 @@
-hi
+<div class="container">
+  <h1>GALORIE</h1>
+  <table>
+    <thead>
+    <tr>
+      <th>Meal</th>
+      <th>Good Cals</th>
+      <th>Bad Cals</th>
+      <th>Action</th>
+    </tr>
+    <tr>
+      <td><input class="form-control meal-input"></td>
+      <td><input class="form-control good-cals-input"></td>
+      <td><input class="form-control bad-cals-input"></td>
+      <td><button class="btn btn-primary add-btn"></button></td>
+    </tr>
+    </thead>
+    <tbody class="meals-list"></tbody>
+  </table>
+</div>
+
+<script type="text/template" class="meals-list-template">
+  <td><span class="meals"><%meals%></span><td>
+  <td><span class="good-cals"><%good-cals%></span><td>
+  <td><span class="bad-cals"><%ad-cals%></span><td>
+  <td><button class="btn btn-warning edit-blog">Delete</button><td>  
+</script> 
